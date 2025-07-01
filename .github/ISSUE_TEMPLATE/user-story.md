@@ -1,6 +1,15 @@
+---
+name: User Story
+about: Plantilla para historias de usuario del proyecto
+title: "[User Story] "
+labels: user-story
+assignees: ''
+---
+
 **As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
+...
       
 ### Details and Assumptions
     * [document what you know]      
