@@ -788,7 +788,7 @@ The resulting command:<br>
 oc create deployment accounts \
     --dry-run=client \
     --output=yaml > deploy/deployment.yaml \
-    --image=us.icr.io/sn-labs-christians21/accounts:1 \
+    --image=us.icr.io/sn-labs-franciscocl2/accounts:1 \
     --replicas=3
 ```
 
