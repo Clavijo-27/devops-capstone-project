@@ -87,4 +87,3 @@ class TestFlaskErrorHandler(TestCase):
             content_type="test/html"
         )
         self.assertEqual(response.status_code, status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
-        
