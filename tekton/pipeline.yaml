@@ -11,6 +11,7 @@ metadata:
 spec:
   workspaces:
     - name: pipeline-workspace
+    - name: dockerconfig
   params:
     - name: repo-url
     - name: branch
@@ -70,6 +71,8 @@ spec:
       workspaces:
         - name: source
           workspace: pipeline-workspace
+        - name: dockerconfig
+          workspace: dockerconfig
       taskRef:
         name: buildah
         # According to Tekton Doc: ClusterTasks are deprecated and ClusterResolver should be used instead.
