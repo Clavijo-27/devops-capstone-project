@@ -25,4 +25,4 @@ EXPOSE 8080
 CMD ["gunicorn", "--bind=0.0.0.0:8080", "--log-level=info" , "service:app"]
 
 # OpenShift service / route URL to access microservice:
-# https://accounts-sn-labs-christians21.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud/
+# https://accounts-sn-labs-francisco12.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud/
